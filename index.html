@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>cam</title>
 
+    <!-- AngularJS -->
+    <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Live reload -->
   </head>
-  <body>
+  <body ng-app="camstore">
+
+    <div class="" ng-controller="HelloController">
+      <h3>Welcom {{helloTo.title }} to the </h3>
+    </div>
 
     <nav class="navbar navbar-default">
       <div class="container-fluid">
