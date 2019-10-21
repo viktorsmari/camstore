@@ -4,7 +4,7 @@
   "description": "ERROR: No README data found!",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "~3.3.4",
+    "bootstrap": "~3.4.1",
     "gulp-livereload": "~3.8.0"
   },
   "devDependencies": {
